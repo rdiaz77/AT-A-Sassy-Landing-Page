@@ -11,7 +11,6 @@
   padding: 8px 20px;
   margin: 3px;
 }
-
 .btn-secondary:hover, .btn-primary:hover {
   transform: scale(0.8);
 }
@@ -57,33 +56,27 @@ a {
   padding-top: 20px;
   height: 100vh;
 }
-
 .hero nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
 .hero nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
 }
-
 .hero .hero-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .hero .hero-content div {
   padding-top: 20px;
 }
-
 .hero .hero-content div .my-1 {
   padding-top: 50px;
 }
-
 .hero .hero-content img {
   width: 50%;
 }
@@ -166,6 +159,4 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-} /*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

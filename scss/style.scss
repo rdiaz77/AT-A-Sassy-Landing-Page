@@ -1,3 +1,6 @@
+@import "btnConfig";
+@import "utilities";
+@import "config";
 
 * {
   box-sizing: border-box;
@@ -19,7 +22,56 @@ a {
   text-decoration: none;
 }
 
+
+
+
 .hero {
+  padding-top: 20px;
+  height: 100vh;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    ul{
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+  }
+
+  .hero-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    div{
+      padding-top: 20px;
+
+      .my-1{
+        padding-top: 50px;
+
+
+      }
+
+    }
+   
+    img{
+
+      width: 50%;
+    }
+   
+  }
+
+  
+}
+
+
+
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
@@ -28,7 +80,8 @@ a {
   // 1. $variables
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
-}
+// ----------
+
 
 // This code is related to some of the aspects of SCSS we have yet to cover.
 // While you don't have to mess with it, it would be advisable to attempt to understand its functionality.
